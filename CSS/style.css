@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+/* body {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_head h1,
+.main_head p {
+    text-shadow: 10px 5px 10px black;
+}
+
+.bodyy {
+    background-color: rgb(236, 224, 246);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+.body_color_night {
+    background-color: rgb(75, 74, 74);
+    color: white;
+}
+
+.night_color {
+    color: white;
+}
+
+nav ul {
+    /* display: flex; */
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.social_clr {
+    padding: 12px;
+    font-size: 30px;
+    background-color: rgb(236, 224, 246);
+    color: black;
+    box-shadow: 10px 10px 10px black;
+}
+
+.social_clr:hover {
+    transition: 0.3s;
+    background-color: rgb(200, 160, 235);
+    color: white;
+}
+
+ul li a,
+div a {
+    color: black;
+}
+
+.contact a:hover {
+    text-decoration: none;
+}
+
+ul li a:hover,
+div a:hover {
+    color: black;
+}
+
+nav {
+    background-color: rgb(236, 224, 246);
+}
+
+/* nav .product_dropdown {
+    margin-left: -200px;
+} */
+
+.kitchen {
+    width: 435px;
+}
+
+.dropdown:hover .product_dropdown {
+    display: block;
+
+}
+
+table tr {
+    font-size: larger;
+}
+
+table tr th {
+    text-align: left;
+}
+
+table tr td {
+    text-align: center;
+}
+
+
+.models a img {
+    /* width: 100%; */
+    height: 500px;
+}
